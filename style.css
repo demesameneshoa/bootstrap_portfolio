@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@300;400;800;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+}
+
+.mx-5 {
+    margin-right: 7rem !important;
+    margin-left: 7rem !important;
+}
+
+.navbar {
+    background-color: rgb(85, 84, 84);
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+#home {
+    background-image: url(./img/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 40%;
+    height: 95vh;
+    color: aliceblue;
+}
+
+.social-media {
+  padding-top: 10%;
+}
+
+.social-link {
+    padding-top: 5%;
+    margin-right: 5%;
+}
+
+.social-link ul {
+    list-style: none;
+    font-size: large;
+    padding: 0 10% 0 0;
+}
+
+.name {
+    width: 30%;
+}
+
+.name h1 {
+    font-family: 'Crete Round',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 82px;
+    color: #F55800;
+}
+
+.name h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.name p {
+    font-size: 16px;
+}
+
+#works {
+    margin-top: 5%;
+}
+
+.line {
+    padding: 0.5% 0% 0% 2%;
+}
+
+.work-title h2 {
+    font-family: 'Crete Round',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#featured-work {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 2% auto;
+    gap: 2%;
+}
+
+.featuredimage {
+    width: 250%;
+}
+
+.featuredimage img {
+    width: 100%;
+}
+
+.work-detail h2 {
+    font-family: 'Crete Round',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.work-detail p {
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.work-detail button {
+    border-radius: 0%;
+}
+
+#featured-buttons {
+    margin-top: 5%;
+}
+
+.see-project {
+    margin-top: 8%;
+}
+
+.see-project button {
+    background: #F55800;
+}
+
+.card-title {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.card-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F55800;
+    color: #FFFFFF;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+#about {
+    margin-top: 8%;
+    background-color: #262626;
+    width: 100%;
+    padding: 0;
+}
+
+
+#aboutme-wrapper {
+padding-top: 5%;
+margin-bottom: 5%;
+}
+
+#aboutme-wrapper h2, #aboutme-wrapper p {
+    text-align: left;
+}
+
+#aboutme-wrapper h2 {
+    color: #f55800;
+    font-family: 'Crete Round';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 82px;
+}
+
+#aboutme-wrapper  p {
+color: #f4f5f7;
+font-family: 'Inter',sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+}
+
+#get-resume {
+    background: #F55800;
+    border-radius: 0%;
+    border: none;
+}
+
+#Skills {
+    font-family: 'Inter',sans-serif;
+    line-height: 43px;
+}
+
+#Skills h3 {
+   font-weight: 600;
+   font-size: 32px  ;
+}
+
+#Skills ul{
+    font-size: 22px;
+        font-weight: 400;
+}
+
+#skills-icon {
+color: #f55800;
+}
+
+#contact {
+    margin: 5% 0 5% 0;
+}
+
+#contact h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+form input {
+    border: none;
+}
+
+.form-btn {
+    background-color:#f55800 ;
+}
+ 
+footer hr {
+    margin-left: -8vw;
+     margin-right: -8vw;
+  }
+  
+  

@@ -164,6 +164,7 @@ body {
     padding: 0;
 }
 
+
 #aboutme-wrapper {
 padding-top: 5%;
 margin-bottom: 5%;
@@ -202,7 +203,7 @@ line-height: 32px;
 }
 
 #Skills h3 {
-   font-weight: 700;
+   font-weight: 600;
    font-size: 32px  ;
 }
 
@@ -214,3 +215,30 @@ line-height: 32px;
 #skills-icon {
 color: #f55800;
 }
+
+#contact {
+    margin: 5% 0 5% 0;
+}
+
+#contact h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+form input {
+    border: none;
+}
+
+.form-btn {
+    background-color:#f55800 ;
+}
+ 
+footer hr {
+    margin-left: -8vw;
+     margin-right: -8vw;
+  }
+  
+  

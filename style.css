@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mx-5 {
+    margin-right: 7rem !important;
+    margin-left: 7rem !important;
+}
+
+.navbar {
+    background-color: rgb(85, 84, 84);
+    font-weight: 600;
+}
+
+#home {
+    background-image: url(./img/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 40%;
+    height: 95vh;
+    color: aliceblue;
+}
+
+.social-media {
+  padding-top: 10%;
+}
+
+.social-link {
+    padding-top: 5%;
+    margin-right: 5%;
+}
+
+.social-link ul {
+    list-style: none;
+    font-size: large;
+    padding: 0 10% 0 0;
+}
+
+.name {
+    width: 30%;
+}
+
+.name h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 82px;
+    color: #F55800;
+}
+
+.name h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.name p {
+    font-size: 16px;
+}

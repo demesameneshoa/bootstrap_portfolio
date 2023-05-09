@@ -9,14 +9,17 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-/>
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <!--Font Awasome-->
-    <script src="https://kit.fontawesome.com/df077d3ae3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/df077d3ae3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Bootstrap Desktop Portfolio</title>
   </head>
@@ -24,8 +27,11 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid mx-5">
         <a class="navbar-brand" href="#">My Logo</a>
-        
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav mx-4">
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">Portfolio</a>
@@ -34,10 +40,12 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link"  href="#">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#"><i class="fa-regular fa-envelope"></i></a>
+              <a class="nav-link" href="#"
+                ><i class="fa-regular fa-envelope"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -46,26 +54,66 @@
 
     <!--Home-->
     <section id="home" class="container-fluid bg-dark">
-          <div  class=" social-media d-flex justify-content-start">
-                <div class="social-link">
-                  <ul>
-                    <li class="social-link-items m-2"><i class="fa-brands fa-github"></i></li>
-                    <li class="social-link-items m-2"><i class="fa-brands fa-linkedin-in"></i></li>
-                    <li class="social-link-items m-2"><i class="fa-regular fa-hand-peace"></i></li>
-                    <li class="social-link-items m-2"><i class="fa-brands fa-twitter"></i></li>
-                    <li class="social-link-items m-2"><i class="fa-sharp fa-solid fa-m"></i></li>
-                  </ul>
-                </div>
-                <div class="name">
-                      <h1>Hey There, I'm Alex</h1>
-                      <h3>I'm a Software Devloper</h3>
-                      <p>I can help you build a product ,
-                         feature or website. Look through some of
-                          my work and experience! If you like what you see
-                           and have a project you need coded, 
-                        don’t hesitate to contact me.</p>
-                </div>
-          </div>
-  </section>
+      <div class="social-media d-flex justify-content-start">
+        <div class="social-link">
+          <ul>
+            <li class="social-link-items m-2">
+              <i class="fa-brands fa-github"></i>
+            </li>
+            <li class="social-link-items m-2">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </li>
+            <li class="social-link-items m-2">
+              <i class="fa-regular fa-hand-peace"></i>
+            </li>
+            <li class="social-link-items m-2">
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+            <li class="social-link-items m-2">
+              <i class="fa-sharp fa-solid fa-m"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="name">
+          <h1>Hey There, I'm Alex</h1>
+          <h3>I'm a Software Devloper</h3>
+          <p>
+            I can help you build a product , feature or website. Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="works">
+      <div class="d-flex justify-content-center mx-4">
+        <div class="work-title">
+          <h2>My Recent Works</p>
+        </div>
+        <div class="line">
+          <img src="img/line.svg" alt="black line">
+        </div>
+     </div>
+     <div class="d-flex justify-content-center" id="featured-work">
+        <div class="featuredimage">
+          <img src="img/featuredcard.svg" alt="featured work image">
+        </div>
+        <div class="work-detail">
+          <h2>Multi-Post Stories</h2>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. 
+            This has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a standard dummy text.</p>
+            <div class="d-grid gap-4 d-md-block" id="featured-buttons">
+              <button class="btn btn-outline-secondary" type="button">CSS</button>
+              <button class="btn btn-outline-secondary" type="button">HTML</button>
+              <button class="btn btn-outline-secondary" type="button">Bootstrap</button>
+              <button class="btn btn-outline-secondary" type="button">Ruby</button>
+            </div>
+            <div class="see-project">
+              <button type="button" class="btn btn-primary btn-lg">See Project</button>
+            </div>
+        </div>
+     </div>
+     </section>
   </body>
 </html>

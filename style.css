@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@300;400;800;900&display=swap');
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
 }
 
 .mx-5 {
@@ -10,6 +13,7 @@ body {
 
 .navbar {
     background-color: rgb(85, 84, 84);
+    color: #FFFFFF;
     font-weight: 600;
 }
 
@@ -42,7 +46,7 @@ body {
 }
 
 .name h1 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
@@ -61,4 +65,63 @@ body {
 
 .name p {
     font-size: 16px;
+}
+
+#works {
+    margin-top: 5%;
+}
+
+.line {
+    padding: 0.5% 0% 0% 2%;
+}
+
+.work-title h2 {
+    font-family: 'Crete Round',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#featured-work {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 2% auto;
+    gap: 2%;
+}
+
+.featuredimage {
+    width: 250%;
+}
+
+.featuredimage img {
+    width: 100%;
+}
+
+.work-detail h2 {
+    font-family: 'Crete Round',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.work-detail p {
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.work-detail button {
+    border-radius: 0%;
+}
+
+#featured-buttons {
+    margin-top: 5%;
+}
+
+.see-project {
+    margin-top: 8%;
+}
+
+.see-project button {
+    background: #F55800;
 }
